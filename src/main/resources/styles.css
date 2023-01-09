@@ -1,0 +1,49 @@
+.gradient-background{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #3d409f, #416ec5);
+}
+
+.line-color{
+    -fx-background-color: #F3ABB5;
+}
+
+.container{
+    -fx-background-color: rgba(255,255,255,0.2);
+    -fx-background-radius: 10;
+}
+
+.shadow{
+    -fx-effect: dropShadow(three-pass-box, rgba(0,0,0,0.2), 10.0, 0.0, 0.0, 10.0);
+}
+
+.menu-item:hover{
+    -fx-border-color: WHITE;
+    -fx-border-width: 0px 0px 0px 3px;
+}
+
+.task-item:hover{
+    -fx-border-color: WHITE;
+    -fx-border-width: 1px 0px 1px 0px;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: #575eea;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+.text-area {
+    -fx-font-family: Consolas;
+    -fx-font-size: 15;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: #d0d0d0;
+    -fx-display-caret:true;
+    -fx-background-radius: 10;
+}
+
+
+
